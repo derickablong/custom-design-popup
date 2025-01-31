@@ -1,0 +1,77 @@
+:root {
+    --blue: #0000ff;    
+}
+
+.notice {
+    display: none!important;
+}
+.wc-cd-management {
+    max-width: 420px;
+    margin-top: 30px;
+}
+.wc-cd-field {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+.wc-cd-field .field-group {    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.wc-cd-field .field {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
+    width: 100%;
+}
+.wc-cd-field .field input {
+    width: 100%;
+    border-radius: 0px!important;
+}
+.wc-cd-field .field:not(:last-child) {
+    margin-bottom: 10px;
+}
+.wc-cd-field .label {
+    width: 150px;
+}
+.wc-cd-field .icon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.wc-cd-field .icon svg {
+    width: 100%;
+    height: auto;
+}
+.wc-cd-field .icon .price {
+    font-size: 100px;
+}
+.wc-cd-cta {
+    text-align: right;
+}
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    grid-gap: 0;
+}
+.input-group span {
+    font-weight: 600;
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    background-color: #d1d1d1;
+}
+
+.wc-cd-notice {
+    padding: 5px;
+    font-weight: 700;
+    background-color: #c8e6ff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #003f73;
+}
